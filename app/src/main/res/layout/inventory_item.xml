@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginTop="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="@string/product_code"
+        android:layout_marginTop="1dp"
+        android:textStyle="bold"
+        android:background="#fff9f9"
+        android:layout_marginStart="1dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtProductCD"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_marginTop="1dp"
+        android:textStyle="bold"
+        android:background="#fff9f9"
+        android:layout_marginStart="1dp"
+        android:layout_height="wrap_content"
+        android:text="@string/product_name"
+
+        android:id="@+id/txtProductName"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/product_price"
+        android:textStyle="bold"
+        android:layout_marginTop="1dp"
+        android:background="#fff9f9"
+        android:layout_marginStart="1dp"
+        android:id="@+id/txtPrice"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="@string/avail_qty"
+        android:layout_marginTop="1dp"
+        android:background="#fff9f9"
+        android:layout_marginStart="1dp"
+        android:id="@+id/txtAvailQty"
+        />
+    <EditText
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="1dp"
+        android:background="#fff9f9"
+        android:inputType="number"
+        android:layout_marginStart="1dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/number_order"
+        android:maxLength="8"
+        android:id="@+id/editNumberOrder"
+        />
+
+</LinearLayout>
